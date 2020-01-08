@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <script src="main.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+
+<div class="container">
+
+    <header class="header">
+        <span class="logo">BestShop</span>
+        <ul class="navigation_list">
+            <li class="nav"><a class="nav_list" href="#">WHY US</a></li>
+            <li class="nav"><a class="nav_list" href="#">BENEFITS</a></li>
+            <li class="nav"><a class="nav_list" href="#">PRICES</a></li>
+            <li class="nav"><a class="nav_list" href="#">CONTACT</a></li>
+        </ul>
+    </header>
+
+    <section class="banner_section">
+        <h1>Sell More!</h1>
+        <p>Open shop on our platform and increase your sales</p>
+        <a href="" class="btn"><span class="btn_text">Open your shop</span></a>
+    </section>
+
+    <section class="icon_section">
+        <h2 class="icon_header">The most popular sales platform in country</h2>
+        <div class="icon_div">
+            <div class="icon_article">
+                <div class="red_circle"><img c src="assets/person.svg" alt="" class="article-photo-img"></div>
+                <h3 class="numbers_info">10000+</h3>
+                <p class="short_info">daily entries</p>
+            </div>
+            <div class="icon_article">
+                <div class="blue_circle"><img src="assets/eye.svg" alt="" class="article-photo-img"></div>
+                <h3 class="numbers_info">2000000+</h3>
+                <p class="short_info">seen products every day</p>
+            </div>
+            <div class="icon_article">
+                <div class="green_circle"><img src="assets/catalog.svg" alt="" class="article-photo-img"></div>
+                <h3 class="numbers_info">10000+</h3>
+                <p class="short_info">added posts daily</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="article">
+        <div class="article_1">
+            <article class="info_1">
+                <h3 class="title">Be always first</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium architecto doloremque
+                    expedita ipsam maxime nemo odio quisquam sapiente totam!</p>
+            </article>
+            <div class="Mac">
+                <img class="mac_background" src="assets/Macbook.png" alt="" class="mack_img">
+            </div>
+        </div>
+        <div class="article_2">
+            <div class="Iphone">
+                <img class="iphone_background" src="assets/iPhone.png" alt="" class="phone_img">
+            </div>
+            <article class="info_2">
+                <h3 class="title">Your shop is<br> where you are!</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium architecto doloremque
+                    expedita ipsam maxime nemo odio quisquam sapiente totam!</p>
+            </article>
+        </div>
+        <div class="row2">
+            <div class="article_3">
+                <article class="info_3">
+                    <h3 class="title">Increase recognition<br>your brand!</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium architecto doloremque
+                        expedita ipsam maxime nemo odio quisquam sapiente totam!</p>
+                </article>
+            </div>
+            <div class="image_trumpet">
+                <img src="assets/Trumpet.png" alt="" class="phone_img">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="versions">
+        <h3 class="start_text">Pricing</h3>
+        <div class="rectangles">
+            <div class="rectangle rec1">
+                <h4>Basic</h4>
+                <span>0$</span>
+                <p>L</p>
+                <ul>
+                    <li class="green_checkbox">100 MB HDD</li>
+                    <li class="green_checkbox">1 Subdomain</li>
+                    <li class="green_checkbox">2 E-mails</li>
+                    <li class="red_checkbox">Two years license</li>
+                    <li class="red_checkbox">Full support</li>
+                </ul>
+                <a class="btn_begin" href="">Begin</a>
+            </div>
+
+            <div class="rectangle rec2">
+                <h4>Professional</h4>
+                <span>25$</span>
+                <p>Limited offer</p>
+                <ul>
+                    <li class="green_checkbox">500 MB HDD</li>
+                    <li class="green_checkbox">2 Subdomain</li>
+                    <li class="green_checkbox">5 E-mails</li>
+                    <li class="green_checkbox">One year license</li>
+                    <li class="red_checkbox">Full support</li>
+                </ul>
+                <a class="btn_begin" href="">Begin</a>
+            </div>
+
+            <div class="rectangle rec3">
+                <h4>Premium</h4>
+                <span>60$</span>
+                <p>Limited offer</p>
+                <ul class="rectangle_list">
+                    <li class="green_checkbox">2 GB HDD</li>
+                    <li class="green_checkbox">5 Subdomain</li>
+                    <li class="green_checkbox">20 E-mails</li>
+                    <li class="green_checkbox">Two years license</li>
+                    <li class="green_checkbox">Full support</li>
+                </ul>
+                <a class="btn_begin" href="">Begin</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="calculator">
+        <h3 class="calculator_header">Calculate how much you'll pay</h3>
+        <div class="calculate_div" id="calculateDiv">
+            <div class="input_calculator" id="inputCalculator">
+                <input type="number" name="quantity" min="1" step="1" placeholder="Products quantity" class="input"
+                       id="ProductsInput"> <br>
+                <input type="number" name="quantity" min="1" step="1" placeholder="Estimated orders in month"
+                       class="input" id="OrdersInput">
+
+                <div class="dropdown">
+                    <input class="input drop_input" placeholder="Choose package">
+                    <button class="dropdown_button" id="dropdown_button"><img src="assets/Arrow%20Down.svg"></button>
+                    <div id="Dropdown" class="dropdown-content">
+                        <li class="basic list">Basic</li>
+                        <li class="pro list">Professional</li>
+                        <li class="premium list">Premium</li>
+                    </div>
+                </div>
+                <label class="css-label">
+                    <input type="checkbox" class="css-checkbox" id="1Checkbox">
+                    <span>Accounting</span>
+                </label>
+                <label class="css-label">
+                    <input type="checkbox" class="css-checkbox" id="2Checkbox">
+                    <span>Rental of a payment terminal</span>
+                </label>
+
+            </div>
+            <div class="hidden_calculator">
+                <div class="green_box" id="ResultInput1">
+                    <span>Products</span>
+                    <span id="InputProducts"></span>
+                    <span id="ProductsResult">$</span>
+                </div>
+                <div class="green_box" id="ResultInput2">
+                    <span>Orders</span>
+                    <span id="InputOrders"></span>
+                    <span id="OrdersResult">$</span>
+                </div>
+                <div class="green_box" id="ResultInput3">
+                    <span>Package</span>
+                    <span id="PackageVersion"></span>
+                    <span id="PackageCost">$</span>
+                </div>
+                <div class="green_box" id="ResultInput4">
+                    <span>Accounting</span>
+                    <span id="Checkbox1">30$</span>
+                </div>
+                <div class="green_box" id="ResultInput5">
+                    <span>Terminal</span>
+                    <span id="Checkbox2">5$</span>
+                </div>
+                <div class="blue_box" id="ResultInput6">
+                    <span>Total</span>
+                    <span id="TotalCost">$</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="form_section">
+        <div class="information">
+            <h2>Any questions?</h2>
+            <p>Leave your email address or call us!</p>
+            <span class="mail_address">info@bestshop.xyz</span>
+            <span class="phone_number">23 456 789</span>
+        </div>
+
+        <div class="form">
+            <form>
+                <div class="form__field">
+                    <label for="name">NAME</label>
+                    <input type="text" class="form__input" id="name"/>
+                </div>
+                <div class="form__field">
+                    <label for="email">EMAIL</label>
+                    <input type="email" class="form__input" id="email"/>
+                </div>
+                <div class="regulamin">
+                    <img src="assets/Checkmark.svg" class="checkbox">
+                    <p class="regulamin_p">I hereby give consent for my personal data included in my application to be
+                        processed for the purposes of
+                        the recruitment process under the European Parliament’s and Council of the European Union
+                        Regulation on the Protection of
+                        Natural Persons as of 27 April 2016,
+                        with regard to the processing of personal data and on the free movement of such data, and
+                        repealing Directive 95/46/EC
+                        (Data Protection Directive)</p>
+                </div>
+                <button type="submit" class="form__button"><a href="#">Send</a></button>
+            </form>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="foot_logo">
+            <span class="logo">BestShop</span>
+            <p>&copy; 2019 BestShop LTD, All Rigths Reserved</p>
+        </div>
+        <div class="foot_social_media">
+            <img src="assets/Twitter.svg" alt="" class="phone_img">
+            <img src="assets/Facebook.svg" alt="" class="phone_img">
+        </div>
+    </section>
+</div>
+</body>
+</html>
